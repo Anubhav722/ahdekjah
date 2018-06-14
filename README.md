@@ -1,4 +1,5 @@
-README
+
+# vigilant-bot
 =======
 
 Chatbot is a simple standalone bot, that can be used to initiate chat with human via fb messanger(possibly other medium in future) and collect all the coversation.
@@ -57,3 +58,5 @@ DESIGN (only for Developers)
 #### Auth
 - `Client` model generate `chatbot-client-key` for `chatbot-client-secret` whenever a new user is registered i.e user-specific.
 - `chatbot-client-key` and `chatbot-client-secret` will be required wherever authentication is required.
+
+
