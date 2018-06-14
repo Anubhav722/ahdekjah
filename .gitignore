@@ -1,0 +1,53 @@
+# OS X
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+assets
+# SASS & Compass
+.sass-cache
+
+*.py[co]
+*.sw[op]
+*.log
+*.pot
+*.py~
+*.html~
+*.pid
+#Redis dump 
+*.rdb 
+include
+lib
+share
+bin
+.Python
+
+iywto/iywto/settings/local.py
+*.sublime-*
+
+# Project Specific Ignored Folders
+venv
+archive
+tmp.*
+orgs/
+notes/
+!/iywto/iywto/media
+/iywto/iywto/media/*
+!/iywto/iywto/media/test
+/.dir-locals.el
+/iywto/.coverage
+reports/
+
+tmp/
+cache/
+test_db
+postgres_env
+web_env
+htmlcov
+_build/
+.env
+chatbot.env
