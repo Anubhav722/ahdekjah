@@ -1,0 +1,84 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,400i,600" rel="stylesheet">
+<title>Choose your location</title>
+<style type="text/css">
+body {
+	color: #4a4a4a;
+	font-family: Source Sans Pro,sans-serif;
+}
+input[type="checkbox"]{
+  display:none;
+}
+input[type="checkbox"] + label{
+	cursor:pointer;
+	font-size: 18px;
+	margin-bottom: 10px;
+	display: block;
+}
+input[type="checkbox"] + label:before{
+	background: #fff;
+	height: 21px;
+	border:1px solid #4699fa;
+	content: " ";
+	display: inline-block;
+	width: 21px;
+	vertical-align: middle;
+	margin-right: 10px;
+  	position:relative;
+  	top:-1px;
+}
+input[type="checkbox"]:checked + label:before{
+	content: "\2713";
+	color: #4699fa;
+	font-size: 24px;
+	text-align: center;
+	line-height: 21px;
+}
+
+button {
+	padding: 0 30px;
+	height: 40px;
+	font-size: 14px;
+	color: #fff;
+	background-color: #4990e2;
+	border: 1px solid;
+}
+</style>
+</head>
+
+<body>
+<script>
+(function(d, s, id){
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.com/en_US/messenger.Extensions.js";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'Messenger'));
+</script>
+
+{% if selected %}
+	<h3>Thanks for choosing your preferences.</h3>
+	<h5>Please close off this window and continue</h5>
+
+{% else %}
+	<h1>{{ question_text }}</h1>
+
+	<form action="{% url 'chat:webview' recipient_id %}" method='post'>
+	{% csrf_token %}
+	{% for option in options %}
+		<div class="form-group"> 
+			<input type="checkbox" name="checkbox" id="{{ option.answer.text }}" value="{{ option.answer.text }}">
+			<label for="{{ option.answer.text }}">{{ option.answer.text }}</label>
+		</div>
+	{% endfor %}
+		<button type="submit" value="continue">Submit</button>
+	</form>
+{% endif %}
+
+</body>
+</html>

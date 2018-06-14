@@ -1,0 +1,14 @@
+site_name: Chatbot Web API
+
+pages:
+    - Home: index.md
+    - Setup: Setup.md
+    - API Guide:
+          - 'api-guide/client.md'
+          - 'api-guide/tree.md'
+          - 'api-guide/session.md'
+          - 'api-guide/initiate-chat.md'
+          - 'api-guide/webhook.md'
+          - 'api-guide/types.md'
+          - 'api-guide/structured-data.md'
+          - 'api-guide/filter-session.md'

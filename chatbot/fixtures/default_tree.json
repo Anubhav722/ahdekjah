@@ -1,0 +1,338 @@
+[{
+	"model": "chat.question",
+	"pk": 1,
+	"fields": {
+		"created_date": "2017-08-29T16:40:56.563Z",
+		"modified_date": "2017-08-29T16:40:56.563Z",
+		"deleted": false,
+		"text": "What is your current annual CTC in lakhs?",
+		"question_type": "text_answer",
+		"quick_replies": "",
+		"is_follow_up": false,
+		"validation_type": "ctc_inr"
+	}
+}, {
+	"model": "chat.question",
+	"pk": 2,
+	"fields": {
+		"created_date": "2017-08-29T16:41:31.250Z",
+		"modified_date": "2017-08-29T16:41:31.250Z",
+		"deleted": false,
+		"text": "What is your expected annual CTC in lakhs?",
+		"question_type": "text_answer",
+		"quick_replies": "",
+		"is_follow_up": false,
+		"validation_type": "ctc_inr"
+	}
+}, {
+	"model": "chat.question",
+	"pk": 3,
+	"fields": {
+		"created_date": "2017-08-29T16:42:04.941Z",
+		"modified_date": "2017-08-29T16:42:04.941Z",
+		"deleted": false,
+		"text": "What is your total work experience?",
+		"question_type": "text_answer",
+		"quick_replies": "",
+		"is_follow_up": false,
+		"validation_type": "work_experience"
+	}
+}, {
+	"model": "chat.question",
+	"pk": 4,
+	"fields": {
+		"created_date": "2017-08-29T16:42:29.293Z",
+		"modified_date": "2017-09-13T15:46:19.977Z",
+		"deleted": false,
+		"text": "Which of the following cities are you currently in?",
+		"question_type": "checkboxes",
+		"quick_replies": "bangalore,mumbai,pune,none",
+		"is_follow_up": false,
+		"validation_type": "city"
+	}
+}, {
+	"model": "chat.question",
+	"pk": 5,
+	"fields": {
+		"created_date": "2017-08-29T16:42:59.291Z",
+		"modified_date": "2017-09-14T09:15:47.457Z",
+		"deleted": false,
+		"text": "Are you willing to relocate?",
+		"question_type": "radio_buttons",
+		"quick_replies": "",
+		"is_follow_up": true,
+		"validation_type": null
+	}
+}, {
+	"model": "chat.question",
+	"pk": 6,
+	"fields": {
+		"created_date": "2017-08-29T16:43:25.749Z",
+		"modified_date": "2017-09-13T15:22:57.803Z",
+		"deleted": false,
+		"text": "Do you have any notice period at your current company?",
+		"question_type": "text_answer",
+		"quick_replies": "yes, no",
+		"is_follow_up": false,
+		"validation_type": null
+	}
+}, {
+	"model": "chat.question",
+	"pk": 7,
+	"fields": {
+		"created_date": "2017-08-29T16:44:08.252Z",
+		"modified_date": "2017-09-04T14:29:50.373Z",
+		"deleted": false,
+		"text": "How long is your notice period?",
+		"question_type": "text_answer",
+		"quick_replies": "",
+		"is_follow_up": true,
+		"validation_type": "notice_period"
+	}
+}, {
+	"model": "chat.question",
+	"pk": 8,
+	"fields": {
+		"created_date": "2017-08-29T16:44:25.186Z",
+		"modified_date": "2017-09-04T14:29:56.941Z",
+		"deleted": false,
+		"text": "Great. When can you join us?",
+		"question_type": "text_answer",
+		"quick_replies": "",
+		"is_follow_up": true,
+		"validation_type": "notice_period"
+	}
+}, {
+	"model": "chat.answer",
+	"pk": 1,
+	"fields": {
+		"created_date": "2017-08-29T16:47:30.193Z",
+		"modified_date": "2017-09-13T15:13:18.540Z",
+		"deleted": false,
+		"answer_type": "S",
+		"text": "Bangalore, Pune, Mumbai"
+	}
+}, {
+	"model": "chat.answer",
+	"pk": 2,
+	"fields": {
+		"created_date": "2017-08-29T16:50:49.325Z",
+		"modified_date": "2017-08-29T16:50:49.325Z",
+		"deleted": false,
+		"answer_type": "S",
+		"text": "yes"
+	}
+}, {
+	"model": "chat.answer",
+	"pk": 3,
+	"fields": {
+		"created_date": "2017-08-29T16:50:55.894Z",
+		"modified_date": "2017-08-29T16:50:55.894Z",
+		"deleted": false,
+		"answer_type": "S",
+		"text": "no"
+	}
+}, {
+	"model": "chat.answer",
+	"pk": 4,
+	"fields": {
+		"created_date": "2017-09-12T12:46:38.638Z",
+		"modified_date": "2017-09-13T15:44:32.881Z",
+		"deleted": false,
+		"answer_type": "S",
+		"text": "none"
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 1,
+	"fields": {
+		"created_date": "2017-08-29T16:44:45.243Z",
+		"modified_date": "2017-08-29T16:44:45.243Z",
+		"deleted": false,
+		"name": "current CTC",
+		"question": 1,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 2,
+	"fields": {
+		"created_date": "2017-08-29T16:44:56.229Z",
+		"modified_date": "2017-08-29T16:44:56.229Z",
+		"deleted": false,
+		"name": "expected CTC",
+		"question": 2,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 3,
+	"fields": {
+		"created_date": "2017-08-29T16:45:07.556Z",
+		"modified_date": "2017-08-29T16:45:07.556Z",
+		"deleted": false,
+		"name": "work experience",
+		"question": 3,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 4,
+	"fields": {
+		"created_date": "2017-08-29T16:45:19.207Z",
+		"modified_date": "2017-08-29T16:45:19.207Z",
+		"deleted": false,
+		"name": "current city",
+		"question": 4,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 5,
+	"fields": {
+		"created_date": "2017-08-29T16:45:31.596Z",
+		"modified_date": "2017-08-29T16:45:31.596Z",
+		"deleted": false,
+		"name": "relocate",
+		"question": 5,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 6,
+	"fields": {
+		"created_date": "2017-08-29T16:46:08.684Z",
+		"modified_date": "2017-08-29T16:46:08.684Z",
+		"deleted": false,
+		"name": "notice period company",
+		"question": 6,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 7,
+	"fields": {
+		"created_date": "2017-08-29T16:46:25.757Z",
+		"modified_date": "2017-08-29T16:46:25.757Z",
+		"deleted": false,
+		"name": "notice period (exist)",
+		"question": 7,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 8,
+	"fields": {
+		"created_date": "2017-08-29T16:46:37.494Z",
+		"modified_date": "2017-08-29T16:46:37.494Z",
+		"deleted": false,
+		"name": "notice period (none)",
+		"question": 8,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.tree",
+	"pk": 1,
+	"fields": {
+		"created_date": "2017-08-29T16:52:37.888Z",
+		"modified_date": "2017-08-29T16:52:37.888Z",
+		"deleted": false,
+		"trigger": "default tree",
+		"root_state": 1,
+		"completion_text": "Thanks For your time. Have a nice day :)",
+		"greeting_text": "This is on behalf of AirCTO. We would like to ask a few questions",
+		"summary": "",
+		"default": true,
+		"belongs_to": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 1,
+	"fields": {
+		"current_state": 1,
+		"answer": null,
+		"next_state": 2,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 2,
+	"fields": {
+		"current_state": 2,
+		"answer": null,
+		"next_state": 3,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 3,
+	"fields": {
+		"current_state": 3,
+		"answer": null,
+		"next_state": 4,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 4,
+	"fields": {
+		"current_state": 4,
+		"answer": 1,
+		"next_state": 6,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 5,
+	"fields": {
+		"current_state": 4,
+		"answer": null,
+		"next_state": 5,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 6,
+	"fields": {
+		"current_state": 5,
+		"answer": null,
+		"next_state": 6,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 7,
+	"fields": {
+		"current_state": 6,
+		"answer": 2,
+		"next_state": 7,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 8,
+	"fields": {
+		"current_state": 6,
+		"answer": 3,
+		"next_state": 8,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 9,
+	"fields": {
+		"current_state": 7,
+		"answer": null,
+		"next_state": null,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 10,
+	"fields": {
+		"current_state": 8,
+		"answer": null,
+		"next_state": null,
+		"tree": 1
+	}
+}]

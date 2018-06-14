@@ -1,0 +1,8 @@
+CLIENT_KEY_GENERATOR_LENGTH = 40  # Length of Client Key
+CLIENT_SECRET_GENERATOR_LENGTH = 64  # Length of Client Secret
+
+UNICODE_ASCII_CHARACTER_SET = (
+    'abcdefghijklmnopqrstuvwxyz'
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    '0123456789'
+)

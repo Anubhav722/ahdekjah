@@ -1,0 +1,418 @@
+[{
+	"model": "chat.question",
+	"pk": 1,
+	"fields": {
+		"created_date": "2017-09-15T12:43:41.026Z",
+		"modified_date": "2017-09-15T12:43:41.026Z",
+		"deleted": false,
+		"text": "What is your current annual CTC in lakhs?",
+		"question_type": "text_answer",
+		"quick_replies": "",
+		"is_follow_up": false,
+		"validation_type": "ctc_inr"
+	}
+}, {
+	"model": "chat.question",
+	"pk": 2,
+	"fields": {
+		"created_date": "2017-09-15T12:44:00.271Z",
+		"modified_date": "2017-09-15T12:44:00.272Z",
+		"deleted": false,
+		"text": "What is your expected annual CTC in lakhs?",
+		"question_type": "text_answer",
+		"quick_replies": "",
+		"is_follow_up": false,
+		"validation_type": "ctc_inr"
+	}
+}, {
+	"model": "chat.question",
+	"pk": 3,
+	"fields": {
+		"created_date": "2017-09-15T12:44:22.313Z",
+		"modified_date": "2017-09-15T12:44:22.313Z",
+		"deleted": false,
+		"text": "What is your total work experience?",
+		"question_type": "text_answer",
+		"quick_replies": "",
+		"is_follow_up": false,
+		"validation_type": "work_experience"
+	}
+}, {
+	"model": "chat.question",
+	"pk": 4,
+	"fields": {
+		"created_date": "2017-09-15T12:44:52.018Z",
+		"modified_date": "2017-09-15T13:13:40.317Z",
+		"deleted": false,
+		"text": "What is your current location (City)?",
+		"question_type": "text_answer",
+		"quick_replies": "",
+		"is_follow_up": false,
+		"validation_type": "city"
+	}
+}, {
+	"model": "chat.question",
+	"pk": 5,
+	"fields": {
+		"created_date": "2017-09-15T12:45:50.116Z",
+		"modified_date": "2017-09-15T13:13:48.598Z",
+		"deleted": false,
+		"text": "Please select the cities you are OK to work in?",
+		"question_type": "checkboxes",
+		"quick_replies": "",
+		"is_follow_up": false,
+		"validation_type": null
+	}
+}, {
+	"model": "chat.question",
+	"pk": 6,
+	"fields": {
+		"created_date": "2017-09-15T12:46:35.863Z",
+		"modified_date": "2017-09-15T12:46:35.863Z",
+		"deleted": false,
+		"text": "Do you have any notice period at your current company?",
+		"question_type": "text_answer",
+		"quick_replies": "yes,no",
+		"is_follow_up": false,
+		"validation_type": null
+	}
+}, {
+	"model": "chat.question",
+	"pk": 7,
+	"fields": {
+		"created_date": "2017-09-15T12:47:05.866Z",
+		"modified_date": "2017-09-15T12:50:53.102Z",
+		"deleted": false,
+		"text": "How long is your notice period?",
+		"question_type": "text_answer",
+		"quick_replies": "",
+		"is_follow_up": true,
+		"validation_type": "notice_period"
+	}
+}, {
+	"model": "chat.question",
+	"pk": 8,
+	"fields": {
+		"created_date": "2017-09-15T12:47:26.443Z",
+		"modified_date": "2017-09-15T12:50:59.383Z",
+		"deleted": false,
+		"text": "Great. When can you join us?",
+		"question_type": "text_answer",
+		"quick_replies": "",
+		"is_follow_up": true,
+		"validation_type": "notice_period"
+	}
+}, {
+	"model": "chat.question",
+	"pk": 9,
+	"fields": {
+		"created_date": "2017-09-15T13:32:00.178Z",
+		"modified_date": "2017-09-15T13:32:00.178Z",
+		"deleted": false,
+		"text": "What are the skills you are comfortable with?",
+		"question_type": "text_answer",
+		"quick_replies": "",
+		"is_follow_up": false,
+		"validation_type": null
+	}
+}, {
+	"model": "chat.question",
+	"pk": 10,
+	"fields": {
+		"created_date": "2017-09-15T13:32:24.654Z",
+		"modified_date": "2017-09-15T13:32:24.654Z",
+		"deleted": false,
+		"text": "Why do you want to change the job?",
+		"question_type": "text_answer",
+		"quick_replies": "",
+		"is_follow_up": false,
+		"validation_type": null
+	}
+}, {
+	"model": "chat.question",
+	"pk": 11,
+	"fields": {
+		"created_date": "2017-09-15T13:32:34.953Z",
+		"modified_date": "2017-09-15T13:32:34.953Z",
+		"deleted": false,
+		"text": "Why do you want join our company?",
+		"question_type": "text_answer",
+		"quick_replies": "",
+		"is_follow_up": false,
+		"validation_type": null
+	}
+}, {
+	"model": "chat.answer",
+	"pk": 1,
+	"fields": {
+		"created_date": "2017-09-15T12:58:57.250Z",
+		"modified_date": "2017-09-15T12:58:57.250Z",
+		"deleted": false,
+		"answer_type": "S",
+		"text": "yes"
+	}
+}, {
+	"model": "chat.answer",
+	"pk": 2,
+	"fields": {
+		"created_date": "2017-09-15T12:59:04.389Z",
+		"modified_date": "2017-09-15T12:59:04.389Z",
+		"deleted": false,
+		"answer_type": "S",
+		"text": "no"
+	}
+}, {
+	"model": "chat.answer",
+	"pk": 3,
+	"fields": {
+		"created_date": "2017-09-15T13:14:21.343Z",
+		"modified_date": "2017-09-15T13:14:21.343Z",
+		"deleted": false,
+		"answer_type": "S",
+		"text": "Bangalore, Pune, Mumbai"
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 1,
+	"fields": {
+		"created_date": "2017-09-15T12:52:23.295Z",
+		"modified_date": "2017-09-15T12:52:23.295Z",
+		"deleted": false,
+		"name": "What is your current annual CTC in lakhs?",
+		"question": 1,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 2,
+	"fields": {
+		"created_date": "2017-09-15T12:52:51.297Z",
+		"modified_date": "2017-09-15T12:52:51.297Z",
+		"deleted": false,
+		"name": "What is your expected annual CTC in lakhs?",
+		"question": 2,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 3,
+	"fields": {
+		"created_date": "2017-09-15T12:53:10.074Z",
+		"modified_date": "2017-09-15T12:53:10.074Z",
+		"deleted": false,
+		"name": "What is your total work experience?",
+		"question": 3,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 4,
+	"fields": {
+		"created_date": "2017-09-15T12:53:28.019Z",
+		"modified_date": "2017-09-15T12:53:28.019Z",
+		"deleted": false,
+		"name": "What is your current location (City)?",
+		"question": 4,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 5,
+	"fields": {
+		"created_date": "2017-09-15T12:53:52.990Z",
+		"modified_date": "2017-09-15T12:53:52.990Z",
+		"deleted": false,
+		"name": "Please select the cities you are OK to work in?",
+		"question": 5,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 6,
+	"fields": {
+		"created_date": "2017-09-15T12:54:13.748Z",
+		"modified_date": "2017-09-15T12:54:13.748Z",
+		"deleted": false,
+		"name": "Do you have any notice period at your current company?",
+		"question": 6,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 7,
+	"fields": {
+		"created_date": "2017-09-15T12:54:31.554Z",
+		"modified_date": "2017-09-15T12:54:31.554Z",
+		"deleted": false,
+		"name": "How long is your notice period?",
+		"question": 7,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 8,
+	"fields": {
+		"created_date": "2017-09-15T12:54:52.518Z",
+		"modified_date": "2017-09-15T12:54:52.518Z",
+		"deleted": false,
+		"name": "Great. When can you join us?",
+		"question": 8,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 9,
+	"fields": {
+		"created_date": "2017-09-15T13:33:19.417Z",
+		"modified_date": "2017-09-15T13:33:19.417Z",
+		"deleted": false,
+		"name": "What are the skills you are comfortable with?",
+		"question": 9,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 10,
+	"fields": {
+		"created_date": "2017-09-15T13:33:34.514Z",
+		"modified_date": "2017-09-15T13:33:34.514Z",
+		"deleted": false,
+		"name": "Why do you want to change the job?",
+		"question": 10,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.treestate",
+	"pk": 11,
+	"fields": {
+		"created_date": "2017-09-15T13:33:50.528Z",
+		"modified_date": "2017-09-15T13:33:50.528Z",
+		"deleted": false,
+		"name": "Why do you want to join our company?",
+		"question": 11,
+		"num_retries": null
+	}
+}, {
+	"model": "chat.tree",
+	"pk": 1,
+	"fields": {
+		"created_date": "2017-09-15T12:56:55.392Z",
+		"modified_date": "2017-09-15T12:56:55.392Z",
+		"deleted": false,
+		"trigger": "Default Tree",
+		"root_state": 1,
+		"completion_text": "Thanks for your time. Have a nice day :)",
+		"greeting_text": "This is on behalf of Happy Company. We would like to ask you a few questions.",
+		"summary": "",
+		"default": true,
+		"belongs_to": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 1,
+	"fields": {
+		"current_state": 1,
+		"answer": null,
+		"next_state": 2,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 2,
+	"fields": {
+		"current_state": 2,
+		"answer": null,
+		"next_state": 3,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 3,
+	"fields": {
+		"current_state": 3,
+		"answer": null,
+		"next_state": 4,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 4,
+	"fields": {
+		"current_state": 4,
+		"answer": null,
+		"next_state": 5,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 5,
+	"fields": {
+		"current_state": 5,
+		"answer": 3,
+		"next_state": 6,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 6,
+	"fields": {
+		"current_state": 6,
+		"answer": 1,
+		"next_state": 7,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 7,
+	"fields": {
+		"current_state": 6,
+		"answer": 2,
+		"next_state": 8,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 8,
+	"fields": {
+		"current_state": 7,
+		"answer": null,
+		"next_state": 9,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 9,
+	"fields": {
+		"current_state": 8,
+		"answer": null,
+		"next_state": 9,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 10,
+	"fields": {
+		"current_state": 9,
+		"answer": null,
+		"next_state": 10,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 11,
+	"fields": {
+		"current_state": 10,
+		"answer": null,
+		"next_state": 11,
+		"tree": 1
+	}
+}, {
+	"model": "chat.transition",
+	"pk": 12,
+	"fields": {
+		"current_state": 11,
+		"answer": null,
+		"next_state": null,
+		"tree": 1
+	}
+}]
