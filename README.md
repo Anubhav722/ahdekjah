@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # vigilant-bot
 =======
@@ -60,3 +61,6 @@ DESIGN (only for Developers)
 - `chatbot-client-key` and `chatbot-client-secret` will be required wherever authentication is required.
 
 
+=======
+# ahdekjah
+>>>>>>> e9c57a8fee42ebf14ee1537018a8e0ab3276c128
